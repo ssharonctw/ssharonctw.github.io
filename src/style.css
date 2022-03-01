@@ -171,7 +171,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-item: center;
+  align-items: center;
   text-align: justify;
   padding: 3rem 2rem;
   background: var(--main-blue);
