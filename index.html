@@ -2,8 +2,8 @@
 <html lang="en" >
 <head>
   <!--meta to avoid pages cached with CDN-->
-  <meta http-equiv='cache-control' content='no-cache'> 
-  <meta http-equiv='expires' content='0'> 
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
   <meta http-equiv='pragma' content='no-cache'>
 
   <meta charset="UTF-8">
@@ -58,13 +58,13 @@
 <!-- start welcome section-->
 <section id="welcome-section" class="welcome-section">
   <h1>Hey I am Sharon</h1>
-  <p>a developer on her journey</p>  
+  <p>a developer on her journey</p>
 </section>
 <!--end welcome section-->
 
 <!-- start bio section-->
 <section id="bio-section" class="bio-section">
-    <div class="bio-paragraph">I have always been passionate about programming and solution design. As a Computer Science and Business graduate, I constantly seek opportunities where technology could integrate with our work and daily life. </div> 
+    <div class="bio-paragraph">I have always been passionate about programming and solution design. As a Computer Science and Business graduate, I constantly seek opportunities where technology could integrate with our work and daily life. </div>
    <div class="bio-paragraph">Currently working at JP Morgan as a Corporate Analyst, I enjoy the beauty of scripting and deploying digital solutions to the teams. To check more about my work experience, please visit my Linkedin below.</div>
   <div class="bio-paragraph">
   <a href="https://www.linkedin.com/in/hsinwen-chang-ust/" class="btn contact-details" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
@@ -80,15 +80,17 @@
   </div>
   <div class="skills-item">
     <p>Java</p>
+    <p>Python</p>
+    <p>JavaScript</p>
+    <p>React</p>
     <p>HTML</p>
     <p>CSS</p>
-    <p>JavaScript</p> 
-    <p>React</p>
     <p>Bootstrap</p>
     <p>Node.js</p>
-    <p>Python</p>
     <p>R</p>
     <p>C++</p>
+    <p>Heroku</p>
+    <p>SpringBoot</p>
     <p>Github</p>
   </div>
   <div class="skills-item skills-item-cert">
@@ -101,11 +103,11 @@
   </div>
   <div class="skills-item">
     <p>Java</p>
+    <p>Python</p>
+    <p>Machine Learning</p>
     <p>React</p>
-    <p>HTML</p>
-    <p>CSS</p>
   </div>
-  
+
 </section>
 <!-- end of skill section-->
 
@@ -117,7 +119,21 @@
 <section id="projects" class="project-section">
   <h2 class="project-section-header">These are some of my projects</h2>
   <div class="projects-grid">
-    
+        <!--Project-->
+    <a href="https://corona-virus-tracker-spring.herokuapp.com/" target="_blank" class="project project-title" >
+    <img class="project-image" src="https://raw.githubusercontent.com/ssharonctw/Corona-Virus-Tracker/master/doc/demo-homepage.JPG" alt="project image"/>
+    <p class="project-title">
+<!--the span will only be showed when hover (using css) -->
+      <span class="code">&lt;</span>
+      Coronavirus Tracker
+      <span class="code">&#47;&gt;</span>
+    </p>
+      <p class="project-description">
+        A Coronavirus tracker app refershed hourly built with Spring Boot and Java with table sorting/ city filtering functionality.
+      </p>
+    </a>
+
+
     <!--Project-->
     <a href="https://ssharonctw.github.io/travel-advisor/" target="_blank" class="project project-title" >
     <img class="project-image" src="https://github.com/ssharonctw/travel-advisor/blob/15a633a99a0e9626ab940e2dd4ea2eab0c0171e9/doc/Travel-Advisor-Demo-Img.PNG?raw=true" alt="project image"/>
@@ -131,7 +147,36 @@
         This Travel Advisor App used Rapid API and Google Maps API to fetch and present restaurants, hotel, and attraction information around specified location.
       </p>
     </a>
-    
+
+        <!--Project-->
+    <a href="https://ssharonctw.github.io/SpamFilterProject/" target="_blank" class="project project-title" >
+    <img class="project-image" src="https://toahtech.com/wp-content/uploads/2021/12/Spam-Text-Feature-Image-e1565825277600.jpg" alt="project image"/>
+    <p class="project-title">
+<!--the span will only be showed when hover (using css) -->
+      <span class="code">&lt;</span>
+      Spam Message Classifier
+      <span class="code">&#47;&gt;</span>
+    </p>
+      <p class="project-description">
+        A spam SMS prediction model trained with 5000 labeled SMS messages using NLP techniques. With accuracy acheiveing 99%
+      </p>
+    </a>
+
+            <!--Project-->
+    <a href="https://github.com/ssharonctw/PythonResumeParser" target="_blank" class="project project-title" >
+    <img class="project-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCsZLGwX4N88NDgHkcf9JgGNy1A2LiRYarbA&usqp=CAU" alt="project image"/>
+    <p class="project-title">
+<!--the span will only be showed when hover (using css) -->
+      <span class="code">&lt;</span>
+      Resume Keyword Parser
+      <span class="code">&#47;&gt;</span>
+    </p>
+      <p class="project-description">
+        A python automation tool utilizing NLP technique to extract key information from random resumes. Project concept is scalable to other usecases of extracting information from PDFs with random formats.
+      </p>
+    </a>
+
+
     <!--Project-->
     <a href="https://codepen.io/ssharonctw/full/GRMXxYr" target="_blank" class="project project-title" >
     <img class="project-image" src="https://shots.codepen.io/username/pen/GRMXxYr-512.webp?version=1641909463" alt="project image"/>
@@ -145,7 +190,7 @@
         This responsive tribute page is created for my favorite astronomer Dr. Carl Sagan using HTML and CSS with media query.
       </p>
     </a>
-    
+
     <!--Project-->
     <a href="https://codepen.io/ssharonctw/full/xxXQEQw" target="_blank" class="project project-title" >
     <img class="project-image" src="https://shots.codepen.io/username/pen/xxXQEQw-512.webp?version=1641982478" alt="project image"/>
@@ -159,7 +204,7 @@
         This product landing page is created for FSX, a classic flight simulator game using HTML and CSS Grid/Flex container.
       </p>
     </a>
-    
+
     <!--Project-->
     <a href="https://ssharonctw.github.io/random-quote-machine/" target="_blank" class="project project-title" >
     <img class="project-image" src="https://miro.medium.com/max/924/1*8wNWIJh1hPBoGFxLrYlvUQ.png" alt="project image"/>
@@ -170,10 +215,10 @@
       <span class="code">&#47;&gt;</span>
     </p>
       <p class="project-description">
-        This random quote app uses fetch API to collect random quotes from an online resource and uses React hook to manage states. 
+        This random quote app uses fetch API to collect random quotes from an online resource and uses React hook to manage states.
       </p>
     </a>
-    
+
     <!--Project-->
     <a href="https://github.com/ssharonctw/javaSnakeGame" target="_blank" class="project project-title" >
     <img class="project-image" src="https://i.stack.imgur.com/sBEuN.png" alt="project image"/>
@@ -184,7 +229,7 @@
       <span class="code">&#47;&gt;</span>
     </p>
       <p class="project-description">
-        A window-based application that runs a 2D snake game with java awt library and java swing components. 
+        A window-based application that runs a 2D snake game with java awt library and java swing components.
       </p>
     </a>
   </div>
@@ -194,7 +239,7 @@
   ></a>
   <a href="https://github.com/ssharonctw" class="btn btn-show-all" target="_blank">My Github <i class="fas fa-chevron-right"></i
   ></a>
-  
+
 </section>
 <!-- end project section-->
 
@@ -212,7 +257,7 @@
       <a href="tel:+852-5174-0118" class="btn contact-details" target="_blank"><i class="fas fa-mobile-alt"></i>
     Call me</a>
   </div>
-  
+
 </section>
 
 <!-- end contact section-->
